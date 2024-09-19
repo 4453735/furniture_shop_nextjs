@@ -1,0 +1,78 @@
+@charset "UTF-8";
+.sliderContainer {
+  position: relative;
+  width: 100%;
+  height: 450px;
+  background: var(--red);
+}
+
+/* Slide background and positioning */
+.sliderSlide {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Контент будет слева */
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease;
+  padding-left: 120px;
+}
+
+/* Slide content (text and button) */
+.sliderContent {
+  max-width: 310px;
+}
+
+.sliderContent h2 {
+  font-size: 50px;
+  font-family: var(--font-playfair);
+  line-height: 1;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.sliderContent p {
+  font-size: 16px;
+  font-family: var(--font-roboto);
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.sliderButton {
+  display: inline-block;
+  color: var(--primary-grey);
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+  padding: 14px 25px;
+  text-transform: uppercase;
+  flex-shrink: 0;
+  background: #FFF;
+  /* menu-shadow */
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.07);
+}
+
+.sliderButton:hover {
+  background-color: #ff4f4f;
+}
+
+/* Navigation buttons */
+.sliderButtonPrev, .sliderButtonNext {
+  position: absolute;
+  top: 50%;
+  cursor: pointer;
+}
+
+.sliderButtonPrev {
+  left: 25px;
+  background: rgba(157, 157, 157, 0.28);
+  padding: 11px 14px 11px 12px;
+  border: none;
+}
+
+.sliderButtonNext {
+  right: 25px;
+  border: none;
+}
+
+/*# sourceMappingURL=Slider.module.css.map */
