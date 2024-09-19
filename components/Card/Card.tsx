@@ -9,11 +9,11 @@ const Card = ({ title, category, price, imageUrl, sizes }: CardProps): ReactElem
 
   const [isHovered, setIsHovered] = useState(false);
 
-  const handleMouseEnter = () => {
+  const handleMouseEnter = (): void => {
     setIsHovered(true);
   };
 
-  const handleMouseLeave = () => {
+  const handleMouseLeave = (): void => {
     setIsHovered(false);
   };
 
