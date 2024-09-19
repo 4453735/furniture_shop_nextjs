@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import Htag from "@/components/Htag/Htag";
 import Button from "@/components/Button/Button";
 import Slider from "@/components/Slider/Slider";
+import Catalog from "@/components/Catalog/Catalog";
 
 // export const metadata: Metadata = {
 //   title: "Главная",
@@ -25,6 +26,10 @@ export default function Home(): ReactElement {
       <div className={styles.slider}>
         <Slider />
       </div>
+      <Htag tag='h2'>Хиты продаж</Htag>
+      <Catalog />
+
+
 
       {/*<Htag tag='h1'>Текст</Htag>*/}
       {/*<Htag tag='h2'>Тестовый заголовок</Htag>*/}
