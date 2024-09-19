@@ -1,0 +1,29 @@
+.headerContainer {
+  max-width: 1140px;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+}
+
+.search {
+  width: 100%;
+  margin-right: auto;
+}
+
+.userBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon {
+  margin: 0 20px;
+}
+
+.icon:first-child {
+  margin-left: 0;
+}
+
+.icon:last-child {
+  margin-right: 0;
+}

@@ -1,0 +1,23 @@
+.phoneContainer {
+  display: flex;
+}
+
+.phoneIcon {
+  fill: none;
+  stroke: var(--white);
+  margin-right: 11px;
+}
+
+.phoneNumber {
+  color: var(--white);
+}
+
+.white {
+  stroke: var(--white);
+  color: var(--white);
+}
+
+.grey {
+  stroke: var(--primary-grey);
+  color: var(--primary-grey);
+}

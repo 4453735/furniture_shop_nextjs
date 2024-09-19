@@ -1,0 +1,14 @@
+.navElementContainer {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.red {
+  color: var(--red);
+}
+
+/*# sourceMappingURL=MainNavElement.module.css.map */

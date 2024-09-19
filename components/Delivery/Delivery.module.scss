@@ -1,0 +1,22 @@
+.deliveryContainer {
+  display: flex;
+}
+
+.deliveryIcon {
+  fill: var(--white);
+  margin-right: 11px;
+}
+
+.deliveryText {
+  color: var(--white);
+}
+
+.white {
+  fill: var(--white);
+  color: var(--white);
+}
+
+.grey {
+  fill: var(--primary-grey);
+  color: var(--primary-grey);
+}

@@ -1,0 +1,20 @@
+.ul {
+    display: flex;
+    list-style: none;
+}
+
+.li {
+    margin-right: 30px;
+}
+.a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.primary {
+    color: var(--white);
+}
+
+.secondary {
+    color: var(--primary-grey);
+}
